@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodashcument</title>
+    <link rel="shortcut icon" href="images\OIG3-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets\css\styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <?php include 'includes\header.php';?>
+    </header>
+     
+    <nav>
+    <?php include 'includes\sidebar.php';?>  
+    </nav>
+
+    <footer>
+    <?php include 'includes\footer.php';?> 
+    </footer>
+    
