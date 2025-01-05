@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: blue;
+    height: 25%;
+    width: 100%;
+    margin-top: 0px;
+}
+.header .logo{
+    margin-left: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+}
+.container{
+    background-color: skyblue;
+    height: 400px;
+    width: 30%;
+    margin-top: 2%;
+    left:10%;
+    margin-left: 35%;
+    border-radius: 15px;
+    margin-right: 15px;
+    top: 5%;
+    align-items: center !important;
+    align-self: center !important;
+    align-content: center !important;
+}
+.container input{
+    display: block;
+    margin: 20px;
+    margin-left: 20%;
+    top: 5%;
+    background-color: skyblue;
+    outline: none;
+    border: none;
+    top: 50px;
+    border-bottom: solid blue 2px;
+    width: 50%;
+    font-size: 16px;
+   
+    
+}
+.container button{
+
+    display: block;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-bottom: 3%;
+    margin-left: 30%;
+    width: 30%; 
+    min-height: 10%;
+    
+}
+.container button:hover{
+    background-color: red;
+    color: aliceblue;
+    transition: 1s;
+    
+}
+.header .main .content ul{
+    display: flex;
+    margin-left: 10%;
+    justify-content: space-evenly;
+    line-height: normal;
+    align-content: center !important;
+    line-height: 20px; 
+    
+
+}
+.header .main .content ul li{
+    list-style: none;
+    justify-content: baseline;
+    font-weight: bolder;
+    font-size: 20px;
+    align-content: center;
+   
+    
+    
+}
+
+.header .main .content ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+.header .main .user a{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    justify-content: right;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    
+}
